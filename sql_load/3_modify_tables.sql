@@ -29,13 +29,13 @@ Possible Errors:
 */
 
 -- NOTE: This has been updated from the video to fix issues with encoding
-\Copy company_dim FROM 'C:\Users\PC\Desktop\SQL PROJECT\csv_files\company_dim.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+\COPY company_dim FROM 'C:\Users\Admin\Desktop\SQL PROJECT\csv_files\company_dim.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
-\Copy skills_dim FROM 'C:\Users\PC\Desktop\SQL PROJECT\csv_files\skills_dim.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+\COPY skills_dim FROM 'C:\Users\Admin\Desktop\SQL PROJECT\csv_files\skills_dim.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
-\Copy job_postings_fact FROM 'C:\Users\PC\Desktop\SQL PROJECT\csv_files\job_postings_fact.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+\COPY job_postings_fact FROM 'C:\Users\Admin\Desktop\SQL PROJECT\csv_files\job_postings_fact.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
-\Copy skills_job_dim FROM 'C:\Users\PC\Desktop\SQL PROJECT\csv_files\skills_job_dim.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+\COPY skills_job_dim FROM 'C:\Users\Admin\Desktop\SQL PROJECT\csv_files\skills_job_dim.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
 
 
