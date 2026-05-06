@@ -42,7 +42,7 @@ Each query for this project aimed at investigating specific aspects of the data 
 To identify the highest-paying roles, I filtered data analyst positions by average yearly salary and location, focusing on remote jobs. This query highlights the high paying opportunities in the field.
 
 ### [View SQL Query](./project/1_top_paying_job.sql)
-![Top Paying Roles](assets\top_payind_Data_eng.png)
+![Top Paying Roles](assets/top_payind_Data_eng.png)
 
 Key Findings
 
@@ -56,7 +56,7 @@ Key Findings
 To understand what skills are required for the top-paying jobs, I joined the job postings with the skills data, providing insights into what employers value for high-compensation roles.
 
 ### [View SQL Query](./project/2_skills_top_paying_job.sql)
-![Top Paying Skills](assets\top.skills.top.roles.png)
+![Top Paying Skills](assets/top.skills.top.roles.png)
 What skills are required for top paying roles?
 
 * Python is non-negotiable — appears in 7 of 10 top roles; its ecosystem (Pandas, NumPy, PySpark) dominates skill mentions.
@@ -69,7 +69,7 @@ What skills are required for top paying roles?
 This query helped identify the skills most frequently requested in job postings, directing focus to areas with high demand.
 
 ### [View SQL Query](./project/3_top_demanded_skills.sql)
-![Top Demanded Skills](assets\demand.count.png)
+![Top Demanded Skills](assets/demand.count.png)
 What are the most in-demand skills for data engineering?
 
 * SQL & Python are the foundation — with 113k and 108k mentions respectively, they appear in nearly every data engineering job posting. Non-negotiable baseline skills
@@ -81,7 +81,7 @@ What are the most in-demand skills for data engineering?
 Exploring the average salaries associated with different skills revealed which skills are the highest paying and their demand in the job market.
 
 ### [View SQL Query](./project/4_top_paying_skills.sql)
-![Top Paying Skills/Demand](assets\demandXSal.png)
+![Top Paying Skills/Demand](assets/demandXSal.png)
 What are the optimal skills based on salary & demand?
 
 SQL & Python are table stakes — 100k+ postings each but absent from top-25 salary list; ubiquity compresses pay
@@ -94,7 +94,7 @@ Shell & Kubernetes are "table stakes" traps — 365–371 postings but bottom-ti
 Combining insights from demand and salary data, this query aimed to pinpoint skills that are both in high demand and have high salaries, offering a strategic focus for skill development.
 
 ### [View SQL Query](./project/5_optimal_skills.sql)
-![Optimal Skills](assets\optimal.sklls.png)
+![Optimal Skills](assets/optimal.sklls.png)
 
 What are the most optimal skills for data engineers (salary + demand)?
 
